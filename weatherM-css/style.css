@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+  font-family: Roboto Slab;
+  color: white;
+}
+.header_box {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-style: solid;
+  border-color: #ffbb33;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 20px;
+}
+.box {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 40%;
+  margin-top: 4%;
+  margin-left: 1%;
+  border-style: solid;
+  border-color: #ffbb33;
+  border-radius: 10px;
+}
+h2 {
+  color: #ffbb33;
+  font-size: 14px;
+}
+h3 {
+  color: white;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+h4 {
+  color: white;
+  margin-left: 20px;
+  font-size: 12px;
+}
+ul {
+  margin-right: 15%;
+  list-style-type: none;
+}
+.fa {
+  color: white;
+}
+.fa:hover {
+  color: #ffbb33;
+}
+.box3 {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-style: solid;
+  border-color: #ffbb33;
+  border-radius: 10px;
+  margin-left: 1%;
+  width: 70%;
+}
+i {
+  padding: 4.5px;
+}
+.footer {
+  margin-left: 1%;
+  margin-top: 12%;
+}
+.converter a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+

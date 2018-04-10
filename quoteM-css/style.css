@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(to bottom right, #CC0000, white);
+}
+.img_resize {
+  width: 40%;
+  height: 40%;
+  border: 5px double #ffbb33;
+}
+h1 {
+  color: white;
+  font-family: Trebuchet MS;
+  font-size: 25px;
+}
+p {
+  color: #004d40;
+  font-family: Trebuchet MS;
+}
+span {
+  color: #004d40;
+  font-family: Trebuchet MS;
+  font-style: italic;
+}
+button {
+  font-family: Trebuchet MS;
+}
+.quotebox {
+  background-color: white;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px double #ffbb33;
+  padding: 5px;
+}
+.quote {
+  font-size: 25px;
+}
+.author {
+  font-size: 15px;
+}
+.btn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.box3 {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+i {
+  padding: 4.5px;
+}

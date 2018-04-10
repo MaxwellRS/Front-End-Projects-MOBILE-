@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+body {
+  background: url('https://wallpaperscraft.com/image/star_nebula_glow_94217_1920x1080.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+  color: white;
+  font-family: Arvo;
+}
+
+.smaller_img
+{
+  width: 6%;
+}
+img {
+  border:5px solid #d500f9;
+  border-radius:50%;
+}
+.btn1
+{
+  background-color: #d500f9;
+}
+.text1 {
+  color: black;
+}
+ul li {
+  padding: 3px;
+  margin-top: 20px;
+  background-color: #d500f9;
+  border-radius: 8px;
+  list-style-type: none;
+}
+h2 {
+  font-size: 13px;
+  margin-top: 100px;
+}
+h3 {
+  font-size: 12px;
+  margin-top: 2px;
+}
+.deep-purple {
+  font-weight: bold;
+  color: #6a1b9a;
+}
+.btn2 {
+  border:none;
+  background: none;
+    margin-top:5px;
+}
+.fa:hover {
+  color: #4285F4;
+}
+.fa {
+  color: white;
+}
+.box3 {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+i {
+  padding: 5px;
+}
+.footer {
+  margin-top: 66%;
+}
