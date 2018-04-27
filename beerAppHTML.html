@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Beer/food pairing app- mobile</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+<div class="container text_box2">
+  <h2 id="top" class="text-center">Enter your beer style:</h2>
+</div>
+
+<div class="container text-center">
+  
+  
+<button class="clearButton" id="clearInput"><div class="fa fa-window-close"></div></button>
+  
+  <input type="text" id="beerStyle" name="name" placeholder="ex: american ipa" spellcheck="false" autocomplete="off"></input>
+
+<button class="pairButton" id="pairGen"><div class="fa fa-beer"></div></button>
+
+</div>  
+
+<div class="container text_box">
+<h1 class="text-center">Which glass?</h1>
+</div>
+
+<div id="grid_box" class="container">
+    
+  <a href="#info1"><div id="fluteImg" class="image"></div></a>
+    <a href="#info2"><div id="gobletImg" class="image"></div></a>
+    <a href="#info3"><div id="mugImg" class="image"></div></a>
+    <a href="#info4"><div id="pilsnerImg" class="image"></div></a>
+    <a href="#info5"><div id="snifterImg" class="image"></div></a>
+    <a href="#info6"><div id="stangeImg" class="image"></div></a>
+    <a href="#info7"><div id="tulipImg" class="image"></div></a>
+    <a href="#info8"><div id="weizenImg" class="image"></div></a>
+    <a href="#info9"><div id="wineImg" class="image"></div></a>
+      <a href="#info10"><div id="shakerImg" class="image"></div></a>
+  <div id="error_img" class="image"></div>
+  
+</div>
+
+<ul>
+  
+  <div id="info1">
+  <li class="result1"></li>
+  <li class="description1"></li>
+    </div>
+  
+  <div id="info2">
+  <li class="result2"></li>
+  <li class="description2"></li>
+  </div>
+  
+  <div id="info3">
+  <li class="result3"></li>
+  <li class="description3"></li>
+  </div>
+    
+  <div id="info4">
+  <li class="result4"></li>
+  <li class="description4"></li>
+  </div>
+  
+  <div id="info5">  
+  <li class="result5"></li>
+  <li class="description5"></li>
+  </div>
+  
+  <div id="info6"> 
+  <li class="result6"></li>
+  <li class="description6"></li>
+  </div>
+  
+  <div id="info7"> 
+  <li class="result7"></li>
+  <li class="description7"></li>
+  </div>
+    
+  <div id="info8">
+  <li class="result8"></li>
+  <li class="description8"></li>
+    </div>
+  
+  <div id="info9">  
+  <li class="result9"></li>
+  <li class="description9"></li>
+    </div>
+  
+  <div id="info10">  
+  <li class="result10"></li>
+  <li class="description10"></li>
+    </div>
+  
+  <div id="error">  
+  <li class="errorMark"></li>
+  <li class="errorText"></li>
+    </div>
+  
+  </ul>
+
+<div class="container text_box">
+<h1 class="text-center">Which dish?</h1>
+</div>
+
+<div id="grid_box" class="container">
+    
+  <a href="#food1"><div id="food1_img" class="image"></div></a>
+    <a href="#food2"><div id="food2_img" class="image"></div></a>
+    <a href="#food3"><div id="food3_img" class="image"></div></a>
+    <a href="#food4"><div id="food4_img" class="image"></div></a>
+    <a href="#food5"><div id="food5_img" class="image"></div></a>
+    <a href="#food6"><div id="food6_img" class="image"></div></a>
+    <a href="#food7"><div id="food7_img" class="image"></div></a>
+    <a href="#food8"><div id="food8_img" class="image"></div></a>
+    <a href="#food9"><div id="food9_img" class="image"></div></a>
+      <a href="#food10"><div id="food10_img" class="image"></div></a>
+  <a href="#food11"><div id="food11_img" class="image"></div></a>
+  
+</div>
+
+<ul>
+  
+  <div id="food_info1">
+  <li class="food_result1"></li>
+  <li class="food_description1"></li>
+    <li class="recommendation1"></li>
+    <li class="pizza1"></li>
+    </div>
+  
+  <div id="food_info2">
+  <li class="food_result2"></li>
+  <li class="food_description2"></li>
+    <li class="recommendation2"></li>
+    <li class="pizza2"></li>
+  </div>
+  
+  <div id="food_info3">
+  <li class="food_result3"></li>
+  <li class="food_description3"></li>
+    <li class="recommendation3"></li>
+    <li class="pizza3"></li>
+  </div>
+    
+  <div id="food_info4">
+  <li class="food_result4"></li>
+  <li class="food_description4"></li>
+    <li class="recommendation4"></li>
+    <li class="pizza4"></li>
+  </div>
+  
+  <div id="food_info5">  
+  <li class="food_result5"></li>
+  <li class="food_description5"></li>
+    <li class="recommendation5"></li>
+    <li class="pizza5"></li>
+  </div>
+  
+  <div id="food_info6"> 
+  <li class="food_result6"></li>
+  <li class="food_description6"></li>
+    <li class="recommendation6"></li>
+    <li class="pizza6"></li>
+  </div>
+  
+  <div id="food_info7"> 
+  <li class="food_result7"></li>
+  <li class="food_description7"></li>
+    <li class="recommendation7"></li>
+    <li class="pizza7"></li>
+  </div>
+    
+  <div id="food_info8">
+  <li class="food_result8"></li>
+  <li class="food_description8"></li>
+    <li class="recommendation8"></li>
+    <li class="pizza8"></li>
+    </div>
+  
+  <div id="food_info9">  
+  <li class="food_result9"></li>
+  <li class="food_description9"></li>
+    <li class="recommendation9"></li>
+    <li class="pizza9"></li>
+    </div>
+  
+  <div id="food_info10">  
+  <li class="food_result10"></li>
+  <li class="food_description10"></li>
+    <li class="recommendation10"></li>
+    <li class="pizza10"></li>
+    </div>
+  
+  <div id="food_info11">  
+  <li class="food_result11"></li>
+  <li class="food_description11"></li>
+    <li class="recommendation11"></li>
+    <li class="pizza11"></li>
+    </div>
+  
+  </ul>
+
+<div class="container text_box_top">
+  <h1 class="text-center"><a href="#top"><u>back to top</u></a></h1>
+</div>
+
+<div class="container text-center footer_box footer">Source: <a href="https://www.craftbeer.com/" target="_blank">https://www.craftbeer.com/</a>, Brewers Association</div>
+
+<div class="container text-center footer_box">Coded by Max Strusowski, 2018</div>
+
+<div class="container icons">
+  
+  <a target='_blank' href="https://github.com/MaxwellRS"><i class="fa fa-github fa-3x space"></a></i>
+  
+  <a target='_blank' href="https://www.linkedin.com/in/maxwell-strusowski-95109215a/"><i class="fa fa-linkedin fa-3x space"></a></i>
+  
+  <a target='_blank' href="https://www.freecodecamp.org/maxwellrs"><i class="fa fa-free-code-camp fa-3x space"></a></i>
+  
+  <a target='_blank' href="https://mail.google.com/mail/?view=cm&fs=1&to=mstruso89@gmail.com"><i class="fa fa-envelope fa-3x space"></a></i>
+  
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
