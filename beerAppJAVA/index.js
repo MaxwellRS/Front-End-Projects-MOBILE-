@@ -30,7 +30,7 @@ $('#pairGen').click(function(){
     
     var style= $("input").val().toLowerCase();
     
-  if (style==="amber ale" || style==="blonde ale" || style==="cream ale" || style==="helles lager" || style==="kolsch" || style==="lager" || style==="pilsner") {
+  if (style==="amber ale" || style==="blonde ale" || style==="cream ale" || style==="helles lager" || style==="kolsch" || style==="lager" || style==="pilsner" || style==="red ipa") {
     
     $('.food_result1').html('<span>1</span> - <a href="#food1_img"><u>grains</u></a>');
     $('.food_description1').html("Grains like quinoa, wild and short-grain rice are easy on the palate. They also offer balance to hop flavors.");
@@ -40,7 +40,7 @@ $('#pairGen').click(function(){
     
     $('#food1_img').html('<img src="https://image.ibb.co/gxaVYc/photo_1461009683693_342af2f2d6ce.jpg" class="img_box"/>');
     
-  } if (style==="bock" || style==="brown ale" || style==="doppelbock" || style==="marzen" || style==="maibock" || style==="dunkelweizen" || style==="hefeweizen" || style==="weizenbock" || style==="witbier") {
+  } if (style==="bock" || style==="brown ale" || style==="doppelbock" || style==="marzen" || style==="maibock" || style==="dunkelweizen" || style==="hefeweizen" || style ==="red ipa" || style==="weizenbock" || style==="witbier") {
     
     $('.food_result2').html('<span>2</span> - <a href="#food2_img"><u>beans & legumes</u></a>');
     $('.food_description2').html("Beans such as chickpeas, lentils, fava, and soy add richness while balancing salt and acidity.");
@@ -70,7 +70,7 @@ $('#pairGen').click(function(){
     
     $('#food4_img').html('<img src="https://image.ibb.co/fmNYmx/photo_1432139509613_5c4255815697.jpg" class="img_box"/>');
     
-  } if (style==="alt" || style==="american ipa" || style==="brown ale" || style==="belgian ipa" || style==="california common" || style==="english ipa" || style==="ipa" || style==="pale ale") {
+  } if (style==="alt" || style==="american ipa" || style==="brown ale" || style==="belgian ipa" || style==="california common" || style==="english ipa" || style==="ipa" || style==="pale ale" || style==="session ipa") {
     
     $('.food_result5').html('<span>5</span> - <a href="#food5_img"><u>game birds and grains</u></a>');
     $('.food_description5').html("Foods like duck, quail, quinoa, and farro complement the roastiness of beer, while fat cuts down on hop bitterness.");
@@ -166,7 +166,7 @@ function getPair(){
     
     $('#gobletImg').html('<img src="https://image.ibb.co/jveXXS/paris_wine_goblet_8oz_glass1.jpg" class="img_box"/>');
     
-  } if (style==="amber ale" || style==="blonde ale" || style==="brown ale" || style==="american ipa" || style==="pale ale" || style==="pale wheat ale" || style==="porter" || style==="stout" || style==="strong ale" || style==="bock" || style==="cream ale" || style==="doppelbock" || style==="english ipa" || style==="fruit beer" || style==="pilsner" || style==="herbed beer" || style==="dry stout" || style ==="irish dry stout" || style==="milk stout" || style==="oatmeal stout" || style==="rauch" || style==="witbier" || style ==="marzen" || style==="mead" || style ==="old ale" || style==="traditional ale" || style==="gruit") {
+  } if (style==="amber ale" || style==="blonde ale" || style==="brown ale" || style==="american ipa" || style==="pale ale" || style==="pale wheat ale" || style==="porter" || style==="stout" || style==="strong ale" || style==="bock" || style==="cream ale" || style==="doppelbock" || style==="english ipa" || style==="fruit beer" || style==="pilsner" || style==="herbed beer" || style==="dry stout" || style ==="irish dry stout" || style==="milk stout" || style==="oatmeal stout" || style==="rauch" || style==="red ipa" || style==="witbier" || style ==="marzen" || style==="mead" || style ==="old ale" || style==="traditional ale" || style==="gruit") {
     $('.result3').html('<span>3</span> - <a href="#mugImg"><u>mug</u></a>');
     $('.description3').html("Keeps beer slightly cooler. Easy to clink glasses with friends, holds more milliliters.");
     $('#info3').addClass('box');
@@ -215,7 +215,7 @@ function getPair(){
     
     $('#wineImg').html('<img src="https://image.ibb.co/nJaT6n/SProdukt_104487943.jpg" class="img_box"/>');
     
-  } if (style ==="alt" || style ==="american ipa" || style ==="amber ale" || style ==="american imperial ipa" || style ==="american double ipa" || style ==="barleywine" || style ==="belgian ipa" || style ==="belgian dubbel" || style ==="belgian tripel" || style ==="belgian quad" || style ==="black ipa" || style ==="blonde ale" || style ==="belgian strong ale" || style ==="bock" || style ==="brown ale" || style ==="berliner weisse" || style ==="cream ale" || style ==="california common" || style ==="dark ale" || style ==="dunkelweizen" || style ==="double ipa" || style ==="dry stout" || style ==="dubbel" || style ==="doppelbock" || style ==="english ipa" || style ==="fruit beer" || style ==="gose" || style ==="gueuze" || style ==="hefeweizen" || style ==="helles lager" || style ==="herbed beer" || style==="ipa" || style==="imperial ipa" || style ==="irish dry stout" || style ==="imperial double/black" || style ==="imperial stout" || style ==="kolsch" || style ==="lager" || style ==="lambic" || style ==="marzen" || style ==="milk stout" || style ==="milkshake ipa" || style ==="malt liquor" || style ==="ne ipa" || style ==="new england ipa" || style ==="oatmeal stout" || style ==="pilsner" || style ==="pale ale" || style ==="pale wheat ale" || style ==="porter" || style ==="quad" || style ==="rauch" || style ==="rye" || style ==="rye ipa" || style ==="russian imperial stout" || style==="scotch ale" || style ==="stout" || style ==="schwarzbier" || style ==="saison" || style ==="strong ale" || style ==="strong dark ale" || style ==="strong golden ale" || style ==="spiced beer" || style ==="sour ale" || style ==="tripel" || style ==="triple ipa" || style ==="weizenbock" || style ==="witbier" || style ==="wild ale" || style==="mead" || style ==="old ale" || style==="traditional ale"|| style==="maibock" || style ==="gruit") {
+  } if (style ==="alt" || style ==="american ipa" || style ==="amber ale" || style ==="american imperial ipa" || style ==="american double ipa" || style ==="barleywine" || style ==="belgian ipa" || style ==="belgian dubbel" || style ==="belgian tripel" || style ==="belgian quad" || style ==="black ipa" || style ==="blonde ale" || style ==="belgian strong ale" || style ==="bock" || style ==="brown ale" || style ==="berliner weisse" || style ==="cream ale" || style ==="california common" || style ==="dark ale" || style ==="dunkelweizen" || style ==="double ipa" || style ==="dry stout" || style ==="dubbel" || style ==="doppelbock" || style ==="english ipa" || style ==="fruit beer" || style ==="gose" || style ==="gueuze" || style ==="hefeweizen" || style ==="helles lager" || style ==="herbed beer" || style==="ipa" || style==="imperial ipa" || style ==="irish dry stout" || style ==="imperial double/black" || style ==="imperial stout" || style ==="kolsch" || style ==="lager" || style ==="lambic" || style ==="marzen" || style ==="milk stout" || style ==="milkshake ipa" || style ==="malt liquor" || style ==="ne ipa" || style ==="new england ipa" || style ==="oatmeal stout" || style ==="pilsner" || style ==="pale ale" || style ==="pale wheat ale" || style ==="porter" || style ==="quad" || style ==="rauch" || style==="red ipa" || style ==="rye" || style ==="rye ipa" || style ==="russian imperial stout" || style==="scotch ale" || style ==="stout" || style ==="schwarzbier" || style ==="saison" || style ==="strong ale" || style ==="strong dark ale" || style ==="strong golden ale" || style ==="spiced beer" || style ==="sour ale" || style ==="tripel" || style ==="triple ipa" || style ==="weizenbock" || style ==="witbier" || style ==="wild ale" || style==="mead" || style ==="old ale" || style==="traditional ale"|| style==="maibock" || style ==="gruit" || style==="session ipa") {
   
   $('.result10').html('<span>10</span> - <a href="#shakerImg"><u>shaker</u></a>');
   $('.description10').html("Doesn't really enhance or negate much, but you've probably got one.");
